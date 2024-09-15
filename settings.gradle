@@ -1,0 +1,39 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+
+    }
+}
+
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('..\\androidBuild\\unityLibrary')
+
+include ":xrmanifest.androidlib"
+project(":xrmanifest.androidlib").projectDir = file("..\\androidBuild\\unityLibrary\\xrmanifest.androidlib")
+
+
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        flatDir {
+            dirs "libs"
+        }
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+//        flatDir {
+//            dirs "${project(':xrmanifest.androidlib').projectDir}/libs"
+//        }
+    }
+}
+rootProject.name = "EasyCal"
+include ':app'
+
