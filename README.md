@@ -33,5 +33,17 @@ Input: Image of food
 Output: JSON response with predicted calories
 
 
+Screenshots:
+
+![ui1](https://github.com/user-attachments/assets/f0dee4c5-3502-46c0-bfbf-6278f84a0f35)
+![ui3](https://github.com/user-attachments/assets/5aacb496-d32f-42c8-9a7c-6ca30e1f0664)
+![ui2](https://github.com/user-attachments/assets/a0cd8493-c212-43da-bcab-28f0d851415e)
+![result4](https://github.com/user-attachments/assets/a4ee3834-2cf2-40cd-91ac-35920bb803fd)
+![graph](https://github.com/user-attachments/assets/23843458-bc25-419a-861d-03019377dbb7)
+![ar7](https://github.com/user-attachments/assets/3d468e96-f411-446b-958d-77fcc2f6ca83)
+![ar5](https://github.com/user-attachments/assets/b319e25f-15e7-4987-a29b-ecb8f8185c25)
+![result5](https://github.com/user-attachments/assets/3638257f-7e9c-40f8-9a59-b772f25b2792)
+
+
 Contact
 For any issues or questions regarding the project, feel free to contact me at sumitbhamare007@gmail.com
