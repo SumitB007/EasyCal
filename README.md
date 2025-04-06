@@ -13,8 +13,7 @@ Features
 AR Scanning: Uses the device's camera to scan food items in real-time.
 Calorie Prediction: Integrates with the backend machine learning API to fetch calorie estimations based on the scanned food image.
 User-Friendly UI: Easy-to-navigate interface with real-time feedback.
-Screenshots
-(Add your Android app screenshots here)
+
 
 2. Backend (Machine Learning API)
 Description
